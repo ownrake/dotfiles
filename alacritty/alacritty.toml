@@ -1,16 +1,19 @@
-[env]
-TERM = "xterm-256color"
-
+# --- Вид окна терминала -------------------------------------------------------
 [window]
-padding.x = 20
-padding.y = 20
+padding.x = 20                               # Отступ справа и слева
+padding.y = 20                               # Отступ сверху и снизу
 
-opacity = 0.92
-blur = true
+opacity = 0.92                               # Прозрачность фона
+blur = true                                  # Размытие фона
 
-title = ""
-decorations = "none"
+title = ""                                   # Имя окна терминала
+decorations = "none"                         # Вид рамок окна
 
+# --- Шрифт --------------------------------------------------------------------
 [font]
-normal.family = "CaskaydiaCove Nerd Font"
-size = 15.0
+normal.family = "CaskaydiaCove Nerd Font"    # Ну шрифт как шрифт
+size = 15.0                                  # Размер шрифта
+
+# --- Дополнительно ------------------------------------------------------------
+[env]
+TREM = "xtrem-256color"                      # Поддержка большего количества цветов
