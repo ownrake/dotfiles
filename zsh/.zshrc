@@ -1,44 +1,29 @@
-# --- ZSH Path -------------------------------------------------------------------
-export ZSH="$HOME/.oh-my-zsh"                                # Каталог где установлен ZSH
+# --- ZSH ---
+export ZSH="$HOME/.oh-my-zsh"
 
-# --- ZSH Theme ------------------------------------------------------------------
-ZSH_THEME="aryose"                                           # Тема для ZSH
+# --- ТЕМА ---
+ZSH_THEME="aryose"
 
-# --- Plugins --------------------------------------------------------------------
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions)    # Плагины
+# --- ПЛАГИНЫ ---
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
 
+# --- ЗАМЕТКИ ---
+# Normal themes:
+# bira
+# amuse
+# eastwood
+# jonathan
+# mh (best in this moment)
+# aussiegee
+# geoffgarside
+# frontcube
+# jtriley
 
+# Default:
+# robbyrussell
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-# --- Normal theme's for ZSH ------------------------------
-# 1. bira
-# 2. amuse
-# 3. eastwood
-# 4. jonathan
-# 5. mh (best in this moment)
-# 6. aussiegee
-# 7. geoffgarside
-# 8. frontcube
-# 9. jtriley
-
-# --- Default. robbyrussell -------------------------------
-
-# --- Maebe theme's for ZSH -------------------------------
-# 1. apple
-
-
+# Maybe themes:
+# apple
