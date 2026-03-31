@@ -6,36 +6,28 @@
 	"window.density.editorTabHeight": "compact",
 	"workbench.activityBar.location": "top",
 	"workbench.sideBar.location": "right",
-
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
 	"git.confirmSync": false,
-
 	"editor.fontSize": 17,
 	"editor.lineHeight": 1.6,
 	"editor.letterSpacing": 0.3,
 	"editor.minimap.enabled": false,
 	"editor.glyphMargin": false,
 	"editor.renderWhitespace": "none",
-	"editor.renderLineHighlight": "none",
 	"editor.smoothScrolling": true,
 	"editor.semanticHighlighting.enabled": true,
-
 	"editor.insertSpaces": false,
 	"editor.folding": false,
 	"editor.formatOnSave": true,
 	"editor.hover.enabled": "on",
 	"editor.parameterHints.enabled": true,
-
 	"editor.cursorBlinking": "expand",
 	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.cursorWidth": 2,
 	"editor.cursorSurroundingLines": 2,
-
 	"editor.bracketPairColorization.enabled": false,
-	"editor.guides.bracketPairs": "active",
 	"editor.guides.indentation": false,
-
 	"editor.tokenColorCustomizations": {
 		"comments": "#6A737D"
 	},
@@ -43,9 +35,12 @@
 		"editor.lineHighlightBackground": "#ffffff08",
 		"editorCursor.foreground": "#A6ACCD"
 	},
-
 	"terminal.integrated.gpuAcceleration": "auto",
-
 	"files.autoSave": "afterDelay",
-	"files.autoSaveDelay": 800
+	"files.autoSaveDelay": 800,
+	// --- ТЕСТОВЫЕ НАСТРОЙКИ ---
+	"editor.rulers": [],
+	"editor.guides.bracketPairs": "active",
+	"editor.guides.bracketPairsHorizontal": false,
+	"editor.renderLineHighlight": "none"
 }
